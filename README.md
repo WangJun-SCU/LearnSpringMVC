@@ -274,3 +274,6 @@ SSH很笨重，现在除了一些老系统，很少有人使用SSH了，SSM则�
 >
 > https://blog.csdn.net/horero/article/details/54236833
 >
+> SpringMVC映射的前端后台数据交互总结：https://blog.csdn.net/xiansky2015/article/details/79050772
+>
+> 基于注解的入门实例：https://www.cnblogs.com/ysocean/p/7400987.html
