@@ -87,10 +87,10 @@ pom.xml
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wangjun</groupId>
-  <artifactId>spring1</artifactId>
+  <artifactId>learnSpringMVC</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>spring1 Maven Webapp</name>
+  <name>learnSpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -114,7 +114,7 @@ pom.xml
 	</dependency>
   </dependencies>
   <build>
-    <finalName>spring1</finalName>
+    <finalName>learnSpringMVC</finalName>
   </build>
 </project>
 ```
