@@ -5,12 +5,23 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   
+  <!-- DispatcherServlet作为前端控制器是SpringMVC框架的核心，它的作用就是讲请求分发给不同的后端处理器 -->
   <servlet>
       <servlet-name>springmvc</servlet-name>
       <servlet-class>
          org.springframework.web.servlet.DispatcherServlet
       </servlet-class>
+      <!-- 表示启动容器时初始化此Servelt,调用init方法 -->
       <load-on-startup>1</load-on-startup>
+      <!-- springmvc.xml 是自己创建的SpringMVC全局配置文件，用contextConfigLocation作为参数名来加载如果不配置 contextConfigLocation，
+             	那么默认加载的是/WEB-INF/servlet名称-servlet.xml，在这里也就是 springmvc-servlet.xml 
+       -->
+      <!-- 
+	    <init-param>
+	        <param-name>contextConfigLocation</param-name>
+	        <param-value>classpath:springmvc.xml</param-value>
+	    </init-param>
+      -->
    </servlet>
 
    <servlet-mapping>
