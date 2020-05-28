@@ -5,7 +5,7 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   
-  <!-- DispatcherServlet作为前端控制器是SpringMVC框架的核心，它的作用就是讲请求分发给不同的后端处理器 -->
+  <!-- DispatcherServlet作为前端控制器是SpringMVC框架的核心，它的作用就是将请求分发给不同的后端处理器 -->
   <servlet>
       <servlet-name>springmvc</servlet-name>
       <servlet-class>
